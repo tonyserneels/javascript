@@ -25,14 +25,8 @@ class Student {
   }
 }
 
-/*
- * 5.
- Toekennen van een nieuwe instantie van de class Student aan de variabele genaamd student.
- De waarde is een instantie van de class.
- Een instantie is een object met de properties en functies die gedefnieerd staan in de class.
- Het type is Object.
- */
-let student = new Student();
+
+let student = new Student(); 
 student.voornaam = "John";
 student.achternaam = "Duck";
 console.log(student.volledigeNaam());
@@ -44,4 +38,8 @@ console.log(studentEnkelVoornaam.volledigeNaam());
 let studentEnkelAchternaam = new Student();
 studentEnkelAchternaam.achternaam = "Duck";
 console.log(studentEnkelAchternaam.volledigeNaam());
+/* 5 Toekennen van een nieuwe instantie van de class Student, aan de variabele genaamd student.
+De waarde is een instantie van de class. Een instantie is een object met de properties en functies die gedefnieerd staan in de class.
+Het type is Object.
+*/
 ```
